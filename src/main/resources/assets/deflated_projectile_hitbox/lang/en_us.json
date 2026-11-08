@@ -1,0 +1,14 @@
+{
+  "yacl3.config.deflated_projectile_hitbox:config.category.general": "General",
+
+  "yacl3.config.deflated_projectile_hitbox:config.showPickRadius": "Show Pick Radius",
+  "yacl3.config.deflated_projectile_hitbox:config.showPickRadius.description": "Show the projectile's pick radius.",
+
+  "yacl3.config.deflated_projectile_hitbox:config.projectileHitboxMode": "Projectile Hitbox Mode",
+  "yacl3.config.deflated_projectile_hitbox:config.projectileHitboxMode.description": "Choose how projectile hitboxes are calculated.",
+
+  "yacl3.config.enum.ProjectileHitboxMode.vanilla": "Vanilla",
+  "yacl3.config.enum.ProjectileHitboxMode.linear_speed": "Linear Speed",
+  "yacl3.config.enum.ProjectileHitboxMode.moving_only": "Moving Only",
+  "yacl3.config.enum.ProjectileHitboxMode.bounding_box": "Bounding Box"
+}

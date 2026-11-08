@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "deflated_projectile_hitbox",
+  "version": "${version}",
+
+  "name": "Deflated Projectile Hitbox",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "Apache-2.0",
+  "icon": "assets/deflated_projectile_hitbox/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": ["net.azyrod.deflated_projectile_hitbox.DeflatedProjectileHitbox"],
+    "modmenu": ["net.azyrod.deflated_projectile_hitbox.client.DeflatedProjectileHitboxModMenu"]
+  },
+
+  "mixins": [
+    "deflated_projectile_hitbox.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=${yacl_version}"
+  },
+
+  "suggests": {
+    "modmenu": "*"
+  }
+}
